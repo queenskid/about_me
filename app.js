@@ -46,7 +46,7 @@ alert('Who Goes There');
   //alert('Oh, I was starting to like you ' + userName + '.');
 //}
 
-//var answer5 = prompt('last question ' + userName + ',' + ' can we be Friends?').toLowerCase();
+//var answer5 = prompt('Almost there ' + userName + ',' + ' can we be Friends?').toLowerCase();
 //console.log('Can we be Friends?')
 
 //if (answer5 === 'y' || answer5 === 'yes'){
@@ -54,3 +54,15 @@ alert('Who Goes There');
 //} else {
   //alert('I didnt want to be your friend anyways ' + userName + '.');
 //}
+
+var answer6 = parseInt(prompt('How many players can a College Football team have on their active roster?'))
+
+if (answer6 > 125){
+  alert('Try again, you are too high.');
+}
+else if (answer6 < 125){
+  alert('Try again, you are too low.')
+}
+else (answer6 === 125)[
+  alert('You are correct, Great job')
+]

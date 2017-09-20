@@ -20,7 +20,7 @@ if (answer1 === 'y' || answer1 === 'yes') {
 }
 
 var answer2 = prompt('Do you think I smoke?').toLowerCase();
-console.log('Do you Think I smoke?');
+console.log('Do you think I smoke?');
 
 if (answer2 === 'n' || answer2 === 'no'){
   alert('Nice Guess ' + userName + '.');

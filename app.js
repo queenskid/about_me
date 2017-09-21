@@ -79,8 +79,9 @@ while (numberGuesses <= 4){
 
 }
 // question 7 has really got me stucked and after reading and watching videos on it, I still cant figure out how to move forward.
+var sixTries = 6;
 var bucketList = ['Rome', 'Petra', 'Phuket'];
-var sixTries = 0;
+
 while (sixTries <= 6){
   var answer7 = prompt('Let\'s play one last game ' + userName + ' , You will now have 6 tries to guess one of my top 3 locations I want to visit from my bucket list.\n\nYou need one to win. These are your choices\n\nParis, New York City, Egypt, Miami, Madrid, Rome, Israel, Petra, Vietnam, Bora Bora, Phuket, Puerto Rico, Saint Johns, Hawaii');
   for (i = 0; sixTries < 3; i++)

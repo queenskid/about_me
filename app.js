@@ -162,4 +162,4 @@ function7();
 
 // Points
 
-alert('Thanks for playing. You guessed ' + yourPoints + ' answers correctly.')
+alert('Thanks for playing. You guessed ' + yourPoints + ' answers correctly.');

@@ -2,9 +2,9 @@
 
 alert('Who Goes There');
 
-//var userName = prompt('While you are here, What is your name?');
+var userName = prompt('While you are here, What is your name?');
 
-//alert('Hello ' + userName + ',' + ' nice to meet you. Let\'s play a little guessing game. Get them right to learn a little more about me. yes or no asnwers will get you there');
+alert('Hello ' + userName + ',' + ' nice to meet you. Let\'s play a little guessing game. Get them right to learn a little more about me. yes or no asnwers will get you there');
 
 // Queation 1
 
@@ -55,14 +55,46 @@ alert('Who Goes There');
   //alert('I didnt want to be your friend anyways ' + userName + '.');
 //}
 
-var answer6 = parseInt(prompt('How many players can a College Football team have on their active roster?'))
 
-if (answer6 > 125){
-  alert('Try again, you are too high.');
+var numberGuesses = 0;
+
+while (numberGuesses <= 4){
+
+  var answer6 = parseInt(prompt('How many players can a College Football team have on their active roster?'));
+
+  if (answer6 > 125){
+    alert('Try again, you are too high. You got this');
+    numberGuesses++;
+  }
+  else if (answer6 < 125){
+    alert('Try again, you are too low. Talking about Football here, not baseball');
+    numberGuesses++;
+  }
+  if (answer6 === 125){
+    alert('You are correct! Great job, you must really know your College Football.');
+    break;
+  }
+  if (numberGuesses === 4){
+    alert('You are out of guesses ' + userName + ', try my next game.');
+    break;
+  }
+  console.log(numberGuesses);
+
 }
-else if (answer6 < 125){
-  alert('Try again, you are too low.')
+
+var bucketList = ['Rome', 'Petra', 'Phuket', 'Machu Picchu', 'Stockholm', 'Lisbon', 'Cartagena', 'Amsterdam', 'Egypt', 'North Korea'];
+var sixTries = 0;
+while (sixTries <= 6){
+
+  var answer7 = prompt('Let\'s play one last game ' + userName + ' , You will now have 6 tries to guess a location I want to visit from my bucket list.\n\nYou need one to win');
+  if (answer7 === bucketList[i]){
+    alert('It will not be that easy to guess' + userName + ' .');
+  }
+
+  for (i = 0; i < bucketList.length; i++){
+
+  // array for question 7 containing my bucketList locations.
+
+  }
+
 }
-else (answer6 === 125)[
-  alert('You are correct, Great job')
-]

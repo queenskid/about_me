@@ -129,7 +129,7 @@ function6();
 // Question 7
 
 function function7() {
-  var bucketList = ['Rome','Petra','Phuket'];
+  var bucketList = ['ROME','PETRA','PHUKET'];
   var sixTries = 1;
   var correctAnswer = false;
   while (sixTries < 6 && !correctAnswer){

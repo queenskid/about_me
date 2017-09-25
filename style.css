@@ -3,11 +3,25 @@
   /*padding: 5px;*/
 }
 
+img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 575px;
+  margin-right: 25px;
+}
+
 body {
   font-family: arial;
-  background-color: rgb(185, 179, 175);
-  font-size: 18px;
+  /*background-color: rgb(185, 179, 175);*/
+  font-size: 24px;
+  color: black
+  /*background-image : url("background1.jpg");*/
+
 }
+
+/** image {
+  margin: auto;
+}*/
 
 h1, h2, h3, h4 {
   width: 92%;
@@ -34,5 +48,6 @@ h1, h2, h3, h4 {
  }
 
  li {
-   text-align: inline;
+   /*text-align: inline;*/
+   margin: auto;
  }
